@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/res.css">
+    <title>Cheque Details</title>
+</head>
+<body>
+    <section class="header">
+        <nav class="navbar">
+            <a class="navbar-brand" href="#">
+                <img src="../static/assets/Citi.png" width="100" alt="">
+            </a>
+        </nav>
+    </section>
+    <section class="response">
+        <div class="container">
+            <div class="text">
+                <h3>
+                    Date: <span>{{ messages['main']['date'] }}</span>
+                </h3>
+                <h3>
+                    Amount: <span>{{ messages['main']['Amount in number'] }}</span>
+                </h3>
+                <h3>
+                    Amount(in words): <span>{{ messages['main']['Amount in words'] }}</span>
+                </h3>
+
+                <p>
+                     Entire Cheque Details: <span>{{ messages['main']['Entire text'] }}</span>
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

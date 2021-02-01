@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.row{
+    margin: 0px!important;
+}
+body{
+  background: #131313 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+.navbar-brand{
+  padding-left: 30px !important;
+}
+.banner{
+  padding: 0px 50px 100px 50px;
+}
+.banner h1{
+  font-weight: 200 !important;
+  font-size: 56px;
+  line-height: 50px;
+  color: #BF9E68;
+}
+.banner h1 span{
+  font-weight: 700 !important;
+}
+.banner p{
+  font-size: 28px;
+  line-height: 36px;
+  padding-top: 70px;
+  /* margin: 0px 200px 100px 0px; */
+  color: #BF9E68;
+}
+.submit-box{
+    /* margin-right: 100px !important; */
+    padding: 50px 100px;
+    background: #BF9E68;
+    border: 4px dashed #67451F;
+}
+.submit-box input{
+    font-size: 24px;
+    font-weight: 500;
+    background: #67451F;
+    border: none;
+    margin-right: 50px !important;
+    /* width: fit-content !important; */
+    padding: 10px;
+    border-radius: 15px;
+    color: #BF9E68;
+}
+.how{
+    background: #67451F;
+    padding: 100px 20px;
+  }
+  .how img{
+    margin-top: 100px !important;
+  }
+  .how p{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #BF9E68;
+  }
+  .how li{
+    font-size: 30px;
+    padding: 20px 0px;
+    line-height: 40px;
+    color: #BF9E68;
+  }
+  .last{
+    padding: 100px 0px;
+  }
+  .last p{
+    padding: 60px 30px 0px 0px ;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #BF9E68;
+  }

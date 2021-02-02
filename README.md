@@ -4,7 +4,9 @@ Created a Flask  Web Application that allows users to upload an image, and our A
 
 This project was created as a submission to the #Challenge 1 of Citi Tech Hackathon 2021. 
 
-
+<p align = "center">
+<img width ="100%" src = "_shared/main_screen.png"/>
+</p>
 
 # Technologies used:
 
@@ -38,4 +40,8 @@ export export FLASK_APP=vision.py
 ```shell
 flask run
 ```
+Here's our demo:
+
+https://www.youtube.com/watch?v=bLeydiQIYmw&t=5s
+
 
